@@ -1,0 +1,21 @@
+body {
+    background-color: #ead2a8;
+    color: white;
+    font-size: 20px;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/01/39/41/43/1000_F_139414330_sVkykXSEZe7m4XrfFCPr1oR18p236gSp.jpg);
+    padding: 5px 5px;
+}
+
+.heading{
+    color: #688052;
+    text-align: center;
+    margin: 25px 100px;
+    background-color: #ead2a8;
+    border: 3px solid white;
+    padding: 25px 25px;
+    border-radius: 30px;
+}
+
+.center{
+    text-align: center;
+}
