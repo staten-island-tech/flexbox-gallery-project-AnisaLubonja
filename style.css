@@ -1,21 +1,36 @@
 body {
     background-color: #ead2a8;
-    color: white;
+    color: #2243B6;
     font-size: 20px;
-    background-image: url(https://as2.ftcdn.net/v2/jpg/01/39/41/43/1000_F_139414330_sVkykXSEZe7m4XrfFCPr1oR18p236gSp.jpg);
+    background-image: url(https://media.istockphoto.com/vectors/seamless-texture-city-map-in-retro-style-outline-map-vector-id1151367251?k=20&m=1151367251&s=612x612&w=0&h=LrTD4lIrKxTerzKbvY9i0C7uCWf92g124_WlT_zOhbg=);
+    font-family: 'Lilita One', cursive;
+    font-size: 62.5%;
     padding: 5px 5px;
 }
 
 .heading{
-    color: #688052;
+    color: #2243B6;
     text-align: center;
     margin: 25px 100px;
-    background-color: #ead2a8;
-    border: 3px solid white;
+    background-color: #fff0d6;
+    border: 3px solid #2243B6;
     padding: 25px 25px;
     border-radius: 30px;
 }
 
 .center{
     text-align: center;
+}
+
+.box{
+    height: 20%;
+    width: 20%;
+    background: #fff0d6;
+    border-radius: 30px;
+    border: 3px solid #2243B6;
+    padding: 15px 15px;
+    margin: 15px;
+    display: block;
+    margin: 15 auto;
+    box-sizing: content-box;
 }
