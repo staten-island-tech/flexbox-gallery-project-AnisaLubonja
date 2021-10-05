@@ -1,10 +1,17 @@
+html, 
+body, 
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;  
+font-size: 62.5%;
+}
+
 body {
     background-color: #ead2a8;
     color: #2243B6;
     background-image: url(https://media.istockphoto.com/vectors/seamless-texture-city-map-in-retro-style-outline-map-vector-id1151367251?k=20&m=1151367251&s=612x612&w=0&h=LrTD4lIrKxTerzKbvY9i0C7uCWf92g124_WlT_zOhbg=);
     font-family: 'Lilita One', cursive;
-    font-size: 62.5%;
-    padding: 5px 5px;
 }
 
 .heading{
@@ -15,15 +22,24 @@ body {
     border: 3px solid #2243B6;
     padding: 25px 25px;
     border-radius: 30px;
+    font-size: 5rem;
+}
+
+.subheading{
+  font-size: 3rem;
 }
 
 .center{
     text-align: center;
 }
 
+.title{
+  font-size: 2rem;
+}
+
 .box{
-    height: 29%;
-    width: 29%;
+    height: 28%;
+    width: 28%;
     background: #fff0d6;
     border-radius: 30px;
     border: 3px solid #2243B6;
@@ -31,8 +47,6 @@ body {
     margin: 15px;
     display: block;
     margin: 15 auto;
-    box-sizing: content-box;  
-    align-items: center;
 }
 
 .relative {
@@ -40,18 +54,28 @@ body {
     height: 90%;
   }
 
-  #id {
+  .parent {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    font-size: 2rem;
     align-items: center;
-    justify-content: space-around;
-    align-content: center;
   }
 
-  .item1 {
-    align-self: flex-start;
+  .child-1 {
   }
 
-  .item2 {
-    align-self: center;
+  .child-2 {
   }
+
+  .child-3 {
+  }
+
+  .child-4 {
+  }
+
+  .child-5 {
+  }
+
+  .child-6 {
+  }
+
