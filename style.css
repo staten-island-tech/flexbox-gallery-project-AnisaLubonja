@@ -8,7 +8,7 @@ body,
 }
 
 body {
-  background-color: #ead2a8;
+  background-color: #fff0d6;
   color: #2243b6;
   background-image: url(https://media.istockphoto.com/vectors/seamless-texture-city-map-in-retro-style-outline-map-vector-id1151367251?k=20&m=1151367251&s=612x612&w=0&h=LrTD4lIrKxTerzKbvY9i0C7uCWf92g124_WlT_zOhbg=);
   font-family: "Lilita One", cursive;
@@ -30,8 +30,12 @@ body {
   margin: 25px 205px;
 }
 
-.subtext {
+.img-paragraph {
   font-size: 1.5rem;
+}
+
+.location-link{
+  font-size: 2rem;
 }
 
 #center {
@@ -88,4 +92,13 @@ body {
 }
 
 .child-6 {
+}
+
+.child-7 {
+}
+
+.child-8 {
+}
+
+.child-9 {
 }
