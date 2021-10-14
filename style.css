@@ -95,18 +95,6 @@ body {
 }
 
 .child-2 {
-  animation-name: slide;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes slide {
-  0% {
-    transform: slide(0);
-  }
-  100% {
-    transform: slide(50px);
-  }
 }
 
 .child-3 {
