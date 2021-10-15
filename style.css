@@ -24,6 +24,19 @@ body {
   border-radius: 30px;
   font-size: 5rem;
 }
+.heading-animation {
+  animation-name: slide-in;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(5rem);
+  }
+}
 
 .subheading {
   font-size: 3rem;
@@ -83,6 +96,7 @@ body {
   animation-name: rotate;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
+  transition: all 0.3s;
 }
 
 @keyframes rotate {
@@ -94,22 +108,32 @@ body {
   }
 }
 
-.button-1{
-  transition: all 0.3s
+.animation:hover {
+  transition: all 0.3s;
+  animation-iteration-count: 0;
+}
+
+.button-1 {
+  transition: all 0.3s;
 }
 .button-1:hover {
-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
-.button-2{
-transition: all .2s;
+.button-2 {
+  transition: all 0.3s;
 }
 
-.button-2:hover{
-  background-color: blue;
+.button-2:hover {
+  background-color: rgb(253, 202, 234);
 }
 
-.child-4 {
+.button-3: {
+  transition: all 0.3s;
+}
+
+.button-3:hover {
+  box-shadow: inset 1rem 1rem #506dd4;
 }
 
 .child-5 {
