@@ -79,7 +79,7 @@ body {
   margin-bottom: 50px;
 }
 
-.child-1 {
+.animation {
   animation-name: rotate;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
@@ -94,10 +94,19 @@ body {
   }
 }
 
-.child-2 {
+.button-1{
+  transition: all 0.3s
+}
+.button-1:hover {
+transform: scale(1.2);
 }
 
-.child-3 {
+.button-2{
+transition: all .2s;
+}
+
+.button-2:hover{
+  background-color: blue;
 }
 
 .child-4 {
