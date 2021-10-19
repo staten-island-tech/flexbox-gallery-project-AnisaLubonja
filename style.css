@@ -374,12 +374,6 @@ body {
   }
 }
 
-@media (max-width: 500px) {
-body{
-  background-color:rgb(255, 215, 241);
-}
-}
-
 @media (orientation: portrait) {
   .heading{
     font-size: 3rem;
