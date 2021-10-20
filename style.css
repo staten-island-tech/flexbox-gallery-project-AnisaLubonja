@@ -437,4 +437,13 @@ body {
     margin-top: 1.875rem;
     box-shadow: 0.75rem 0.75rem 0.0625rem 0.0625rem #506dd4;
   }
+
+  .location-img {
+    padding-left: 10%;
+    width: 90%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    object-position: 50% 50%;
+  }
 }
